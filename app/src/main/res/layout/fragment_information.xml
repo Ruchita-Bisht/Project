@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/btcolor">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Opening hours:-"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Today  10:30am – 11pm"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="see more"
+            android:id="@+id/seemore"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorAccent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuisines"
+            android:textSize="30dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:text="Cafe, Italian, North Indian, Chinese"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average Cost"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹600 for two people (approx.)
+                       \nExclusive of applicable taxes and charges, if any"
+            android:textSize="25dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B-14, Deep Cinema Complex, Ashok Vihar Phase 1, New Delhi"
+            android:textSize="25dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special :-"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waffles, Ice Cream Roll, Pasta, Dal Makhani, Burgers, Pizza, Panneer Butter Masala"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
